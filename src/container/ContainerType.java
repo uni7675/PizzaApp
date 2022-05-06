@@ -3,7 +3,9 @@ package container;
 
 import utli.Size;
 
-public enum ContainerType {
+import java.io.Serializable;
+
+public enum ContainerType implements Serializable {
     DEEP_DISH("Deep Dish", 500, Size.MEDIUM),
 
     PAN("Pan", 120, Size.SMALL);

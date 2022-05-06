@@ -2,9 +2,11 @@ package pizza;
 
 import dough.Dough;
 import main.Ingredient;
+
+import java.io.Serializable;
 import java.util.List;
 
-public class Pizza {
+public class Pizza implements Serializable {
     private final String name;
     private Dough dough;
     private final List<Ingredient> ingredients;

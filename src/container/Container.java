@@ -5,9 +5,10 @@ import pizza.*;
 import main.Ingredient;
 import utli.Update;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Container implements Update {
+public class Container implements Update, Serializable {
     private final ContainerType containerType;
     private Dough dough;
     private List<Ingredient> ingredients;

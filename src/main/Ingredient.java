@@ -1,6 +1,8 @@
 package main;
 
-public class Ingredient {
+import java.io.Serializable;
+
+public class Ingredient implements Serializable {
     private final String name;
     private final Double weight;
     private final Double calories;

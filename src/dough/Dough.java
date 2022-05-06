@@ -2,7 +2,9 @@ package dough;
 
 import utli.Size;
 
-public class Dough {
+import java.io.Serializable;
+
+public class Dough implements Serializable {
     private final Size size;
 
     public Dough(Size size) {
